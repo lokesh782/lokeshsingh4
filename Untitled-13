@@ -1,0 +1,11 @@
+
+color = input("Enter a color (Red, Yellow, Green): ").capitalize()
+if color == "Red":
+    action = "Stop"
+elif color == "Yellow":
+    action = "Get Ready"
+elif color == "Green":
+    action = "Go"
+else:
+    action = "Invalid color input"
+print(f"The action for {color} is: {action}")
